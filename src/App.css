@@ -14,8 +14,8 @@ body {
   background-color: hsl(227, 47%, 96%);
 }
 
-.dark:bg-gray-800:hover {
-  background-color: hsl(228, 28%, 20%);
+.dark:hover:darkHover {
+  background-color: hsl(228, 34%, 66%) !important;
 }
 
 .FOLLOWERS {

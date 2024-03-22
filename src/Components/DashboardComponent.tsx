@@ -31,7 +31,7 @@ const DashboardComponent = () => {
             <span className="text-gray-500 dark:text-gray-400 mr-4 text-sm font-bold">Dark Mode</span>
             <label htmlFor="toggle" className="inline-flex relative items-center cursor-pointer">
               <input type="checkbox" checked={theme === 'light'} onChange={toggleTheme} id="toggle" className="sr-only peer" />
-              <div className="w-12 h-6 bg-gray-400 dark:bg-green-400 rounded-full peer"></div>
+              <div className="w-12 h-6 bg-gray-400 dark:bg-gradient-to-r dark:from-indigo-400 dark:to-green-500 hover:bg-gradient-to-r hover:from-teal-400 hover:to-lime-500 rounded-full peer"></div>
               <span className="m-1 absolute left-0 inline-block w-5 h-5 bg-white dark:bg-gray-800 border-gray-300 rounded-full transition-transform duration-200 ease-in-out peer-checked:translate-x-5 peer-checked:border-blue-600"></span>
             </label>
           </div>
@@ -39,7 +39,7 @@ const DashboardComponent = () => {
 
 
     <div className='grid grid-cols-1 md:grid-cols-4 gap-4 mt-16'>
-        <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 facebook-card'>
+        <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 dark:hover:bg-customColor facebook-card'>
             <div className='flex justify-center gap-2 items-center'>
                 <img className='h-6' src={facebookImage} alt="" />
                 <p className='font-bold accountName dark:text-gray-400'>@nathanf</p>
@@ -53,7 +53,7 @@ const DashboardComponent = () => {
                 <p className='upGreen'>12 Today</p>
             </div>
         </div>
-        <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 twitter-card'>
+        <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 dark:hover:bg-customColor twitter-card'>
             <div className='flex justify-center gap-2 items-center'>
                 <img className='h-6' src={twitterImage} alt="" />
                 <p className='font-bold accountName dark:text-gray-400'>@nathanf</p>
@@ -67,7 +67,7 @@ const DashboardComponent = () => {
                 <p className='upGreen'>99 Today</p>
             </div>
         </div>
-        <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 instagram-card'>
+        <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 dark:hover:bg-customColor instagram-card'>
             <div className='flex justify-center gap-2 items-center'>
                 <img className='h-6' src={instagramImage} alt="" />
                 <p className='font-bold accountName dark:text-gray-400'>@realnathanf</p>
@@ -81,7 +81,7 @@ const DashboardComponent = () => {
                 <p className='upGreen'>1099 Today</p>
             </div>
         </div>
-        <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 youtube-card'>
+        <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 dark:hover:bg-customColor youtube-card'>
             <div className='flex justify-center gap-2 items-center'>
                 <img className='h-6' src={youtubeImage} alt="" />
                 <p className='font-bold accountName dark:text-gray-400'>Nathan F.</p>

@@ -5,7 +5,13 @@ module.exports = {
     'node_modules/flowbite-react/lib/esm/**/*.js',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customColor: '#333a56',
+        gradientLeft: '#25d5d7',
+        gradientRight: '#86d524',
+      }
+    },
   },
   plugins: [
     require('flowbite/plugin'),
