@@ -67,8 +67,9 @@ const DashboardComponent = () => {
                 <p className='upGreen'>99 Today</p>
             </div>
         </div>
-        <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 dark:hover:bg-customColor instagram-card'>
-            <div className='flex justify-center gap-2 items-center'>
+        <div className='rounded-md pt-2 space-y-4 bg-gradient-to-r from-igLeft to-igRight'>
+        <div className='top-card p-8 space-y-4 dark:bg-gray-800 dark:hover:bg-customColor border-gradient-to-r from-igLeft to-igRight'>
+            <div className='flex justify-center gap-2 items-center h-full'>
                 <img className='h-6' src={instagramImage} alt="" />
                 <p className='font-bold accountName dark:text-gray-400'>@realnathanf</p>
             </div>
@@ -80,6 +81,7 @@ const DashboardComponent = () => {
                 <img className='h-1 w-2' src={upImage} alt="" />
                 <p className='upGreen'>1099 Today</p>
             </div>
+        </div>
         </div>
         <div className='border-solid border-t-8 rounded-md top-card p-8 space-y-4 dark:bg-gray-800 dark:hover:bg-customColor youtube-card'>
             <div className='flex justify-center gap-2 items-center'>
