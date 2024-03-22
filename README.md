@@ -3,7 +3,9 @@ George
 Social Media Dashboard in React
 Using tailwind classes I was able to create and implement a dark mode in a social media dashboard.
 Peer Reviewed By: Ashur
-peer Review: really good work on the similarity with the sample design image; also responisve as well; the only thing i see different is the third card on the top that don't have radius .. other than that, good job  
+peer Review: really good work on the similarity with the sample design image; also responisve as well; the only thing i see different is the third card on the top that don't have radius .. other than that, good job 
+
+George - I fixed the issue mentioned in Peer review.
 
 
 
