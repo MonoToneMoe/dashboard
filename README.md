@@ -1,3 +1,13 @@
+George
+3/22/2024
+Social Media Dashboard in React
+Using tailwind classes I was able to create and implement a dark mode in a social media dashboard.
+Peer Reviewed By: 
+peer Review: 
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
